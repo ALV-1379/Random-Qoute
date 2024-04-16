@@ -1,4 +1,7 @@
-import { copyFn, speechFn , tweetFn , aboutFn } from './methods.js'
+import {copyFn} from "./Module/Copy.js";
+import {tweetFn} from "./Module/Tweet.js";
+import {aboutFn} from "./Module/About.js";
+import {speechFn} from "./Module/Speech.js";
 
 
 const qouteBtn = document.getElementById('new-qoute')
